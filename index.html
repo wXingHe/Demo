@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jqDemo</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="landscape-primary"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <script src="js/jquery-2.0.2.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/bg.js"></script>
+    <style>
+    	html, body {
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+		#main{width:500%;height:100%;}
+		.ui-loader-default{ display:none}  
+	    .ui-mobile-viewport{ border:none;}  
+	    .ui-page {padding: 0; margin: 0; outline: 0}
+    </style>
+</head>
+<body  scroll="no">
+	<img src="image/plant.png" alt="" style="z-index:1000;width:10%;position:fixed" id="plant">
+	<div id="main"><img src="image/qj.gif" alt="" ><img src="image/bg1.jpg" alt=""><img src="image/qj2.gif" alt=""></div>
+	<div style="background:url('image/right.png') no-repeat;background-size:100% 100%;z-index:999;height:9.5%;width:10%;position:fixed;top:80%;left:90%;display:none" id="right">
+</body>
+</html>
